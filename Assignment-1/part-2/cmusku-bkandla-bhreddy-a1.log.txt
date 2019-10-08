@@ -1,0 +1,51 @@
+
+---- Test Case #1
+./route.py Bloomington,_Indiana Indianapolis,_Indiana bfs segments
+Congratulations! Your output  looks great! :)
+
+---- Test Case #2
+./route.py Cleveland,_Ohio Wooster,_Ohio bfs segments
+Congratulations! Your output  looks great! :)
+
+---- Test Case #4
+./route.py Cleveland,_Ohio Wooster,_Ohio uniform distance
+Congratulations! Your output  looks great! :)
+
+---- Test Case #5
+./route.py Cleveland,_Ohio Wooster,_Ohio astar distance
+Congratulations! Your output  looks great! :)
+
+---- Test Case #6
+./route.py Bloomington,_Indiana Wooster,_Ohio uniform distance
+Congratulations! Your output  looks great! :)
+
+---- Test Case #7
+./route.py Wooster,_Ohio Bloomington,_Indiana uniform distance
+Congratulations! Your output  looks great! :)
+
+---- Test Case #8
+./route.py Cleveland,_Ohio Wooster,_Ohio astar time
+Congratulations! Your output  looks great! :)
+
+---- Test Case #9
+./route.py Cleveland,_Ohio Wooster,_Ohio uniform time
+Congratulations! Your output  looks great! :)
+
+---- Test Case #10
+./route.py Wooster,_Ohio Bloomington,_Indiana uniform time
+Congratulations! Your output  looks great! :)
+
+---- Test Case #11
+./route.py Wooster,_Ohio Bloomington,_Indiana astar time
+Your code output: yes 317 5.60093240093 Wooster,_Ohio Mansfield,_Ohio Chesterville,_Ohio Berkshire,_Ohio Delaware,_Ohio New_California,_Ohio Lafayette,_Ohio Springfield,_Ohio Fairborn,_Ohio Vandalia,_Ohio Richmond,_Indiana Spiceland,_Indiana Jct_I-70_&_I-465_E,_Indiana Indianapolis,_Indiana Jct_I-65_&_I-465_S,_Indiana Jct_I-465_&_IN_37_S,_Indiana Martinsville,_Indiana Bloomington,_Indiana
+We expected: yes 320.0 -1 (path with 20 segments)
+Incorrect number of segments, not matching expectation
+
+---- Test Case #12
+./route.py Wooster,_Ohio Bloomington,_Indiana bfs time
+Congratulations! Your output  looks great! :)
+
+---- Test Case #13
+./route.py Wooster,_Ohio Bloomington,_Indiana bfs distance
+Congratulations! Your output  looks great! :)
+Passed  12  of 13 tests (1 given free)
