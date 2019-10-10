@@ -28,7 +28,7 @@ where input-board-filename is a text file containing a board configuration in a 
 
 10 2 4 3
 
-6 9 11 12
+6 9 11  12
 
 15 13 14 16
 
